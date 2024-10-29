@@ -1,0 +1,10 @@
+
+
+CREATE TABLE teams (
+	team_id SERIAL PRIMARY KEY,
+	name varchar(40),
+	abbrev_name varchar(5),
+	location varchar(40)
+);
+
+INSERT INTO teams (name, abbrev_name, location) VALUES ('Crows', 'adel', 'Adelaide'),('Lions', 'bris', 'Brisbane'),('Blues', 'carl', 'Carlton'),('Magpies', 'coll', 'Collingwood'),('Bombers', 'ess', 'Essendon'),('Dockers', 'frem', 'Fremantle'),('Cats', 'geel', 'Geelong'),('Suns', 'gold', 'Gold Coast'),('Giants', 'gws', 'Greater Western Sydney'),('Hawks', 'haw', 'Hawthorn'),('Demons', 'melb', 'Melbourne'),('Kangaroos', 'north', 'North Melbourne'),('Power', 'port', 'Port Adelaide'),('Tigers', 'rich', 'Richmond'),('Saints', 'stk', 'St Kilda'),('Swans', 'syd', 'Sydney'),('Eagles', 'west', 'West Coast'),('Bulldogs', 'bull', 'Western');
